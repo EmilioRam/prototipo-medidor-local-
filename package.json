@@ -1,0 +1,23 @@
+{
+    "name": "cliente-sensorco2_solo",
+    "version": "1.0.0",
+    "description": "lecturas de CO2, temp y humedad con subida a MongoDB Atlas",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Emilio Ramos",
+    "license": "ISC",
+    "dependencies": {
+        "colors": "^1.4.0",
+        "csv-writer": "^1.6.0",
+        "dotenv": "^8.2.0",
+        "mongoose": "^5.12.0",
+        "node-cron": "^3.0.0",
+        "node-dht-sensor": "^0.4.3",
+        "serialport": "^9.0.7"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
+}
